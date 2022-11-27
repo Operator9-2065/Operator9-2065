@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title {
+  background-color: #97F5FF;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  top: 0;
+}
+/* For the top .def.defnavigation bar */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navtop{
+    position:relative;
+    top:0px;
+    width:100%;
+    z-index:-1;
+}
+.defnav button{
+    display:none;
+}
+.defnav {
+    width: 100%;
+    height: 60px;
+    background-color: #97F5FF;
+}
+.defnav ul li:hover{
+    background-color:rgb(152, 170, 175);
+}
+.defnav p a{
+    /*Same .defnav*/
+    font-family: 'Courier New', Courier, monospace;
+    color: #222;
+    font-size: 24px;
+    line-height: 60px;
+    float: right;
+    padding: 10px, 20px;
+    margin-right: 20px;
+    text-decoration:none;
+}
+.defnav ul{
+    float: left;
+}
+.defnav ul li{
+    text-transform: uppercase;
+    float: left; 
+    list-style: none;
+    position: relative;
+    border-right:2px solid rgb(0, 0, 0);
+    border-bottom: 1px solid #000000;
+}
+.defnav ul li a{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 22px 28px;
+    text-decoration: none;
+}
+.defnav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #97F5FF;
+    padding:10px;
+    border-radius: 0px 0px 4px 4px;
+    border-right: none;
+}
+.defnav ul li:hover ul{
+    display: block;
+}
+.defnav ul li ul li{
+    width: 200px;
+    border-radius: 4px;
+    border-right: none;
+}
+.defnav ul li ul li a{
+    padding: 6px 6px; 
+    border-right: none;
+    border-bottom: 1px dotted #fff;
+}
+.defnav ul li ul li a:hover{
+    padding: 6px 14px; 
+    background-color:rgb(152, 170, 175);
+}
+
+label #cancel{
+    background-color: #97F5FF;
+    color: black;
+    font-size: 110px;
+    float:left;
+    margin-left: 13px;
+    margin-top: 0px;
+    display:none;
+    cursor: pointer;
+}
+label #btn{
+    background-color: #97F5FF;
+    color: black;
+    font-size: 90px;
+    float:left;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display:none;
+}
+.sig{
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    width:28%;
+}
+.about-text{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.about-text h1{
+    float:left;
+}
+.about-text ul{
+    padding:12px;
+}
+.signup{
+    font-size: 40px;
+    color: purple;
+}
+.execs{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.execs h1{
+    text-align:center;
+}
+.nacco{
+    text-align: left;
+}
+.victor{
+    text-align:right;
+}
+.oslo{
+    text-align: left;
+}
+.oslo img{
+    position:relative;
+    bottom:0px;
+}
+.rich{
+    text-align:right;
+}
+.rich img{
+    position:relative;
+    bottom:0px;
+}
+.say{
+    text-align:left;
+}
+.say img{
+    position:relative;
+    bottom:0px;
+}
+.sasha img{
+    position:relative;
+    bottom:0;
+}
+.sasha{
+    text-align:right;
+}
+.byuri{
+    text-align:right;
+}
+.byuri img{
+    position:relative;
+    bottom:0;
+}
+.daniel{
+    text-align:left;
+}
+.daniel img{
+    position:relative;
+    bottom:0;
+}
+.aboutst h1{
+    text-align: center;
+}
+.aboutst p{
+    text-align: center;
+    font-size:20px;
+}
+.opprmonthly p{
+    text-align:center;
+    font-size:30px;
+}
+.interviews p{
+    text-align:center;
+    font-size:30px;
+}
+.compete p{
+    text-align:center;
+    font-size:25px;
+}
+.tutor p{
+    text-align:center;
+    font-size:25px;
+}
+.home img{
+    position:relative;
+    margin-right: 20px;
+    top:30px;
+    float:right;
+}
+.home p{
+    margin-left:60px;
+    font-size: 20px;
+}
+.homemonthly img{
+    float:left;
+    margin-right: 20px;
+}
+.homemonthly p{
+    font-size: 22px;
+}
+.compt p{
+    float:left;
+}
+.beg h1{
+    font-size:40px;
+    text-align: center;
+}
+.beg p{
+    font-size: 20px;
+    text-align: center;
+}
+.webd h1{
+    font-size:40px;
+    text-align: center;
+}
+.webd p{
+    font-size: 20px;
+    text-align: center;
+}
+.smallh{
+    display:none;
+}
+.bot{
+    position:fixed;
+    background-color: #97F5FF;
+    bottom:0;
+    text-align:center;
+    width:100%;
+}
+ 
+
+
+@media only screen and (max-width: 1115px){
+
+    label #btn{
+        display:block;
+    }
+    .defnav ul li:hover{
+        background-color:rgb(152, 170, 175);
+    }
+    .defnav p a{
+        /*Same .defnav*/
+        font-family: 'Courier New', Courier, monospace;
+        color: #222;
+        font-size: 45px;
+        line-height: 100px;
+        float: right;
+        padding: 10px, 95px;
+        margin-right: 20px;
+        text-decoration:none;
+        background-color: #97F5FF;
+    }
+    .smallh{
+        font-family: 'Courier New', Courier, monospace;
+        color: #222;
+        background-color: #97F5FF;
+        font-size:35px;
+        float:right;
+        line-height: 100px;
+    }
+    .defnav ul{
+        display: none;
+        background-color: #97F5FF;
+        padding: 10px 100px;
+        list-style-type: none;
+        width: 100%;
+    }
+    .defnav ul li{
+        text-transform: uppercase;
+        text-align:center;
+        border-bottom: 1px solid #000000;
+        float:unset;
+        border-right: none;
+    }
+    .defnav ul li:first-child{
+        border-top: 1px solid #000000;
+    }
+    .defnav ul li a{
+        display: block;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 0, 0);
+        font-size: 60px;
+        text-decoration: none;
+    }
+    .defnav ul li ul{
+        width:100%;
+        display: none;
+        background-color: #97F5FF;
+    }
+    .defnav ul li ul li{
+        width:100%;
+        float:unset;
+    }
+    .defnav ul li:hover ul{
+        background-color: rgb(129, 129, 98);
+        padding: 0;
+        position:relative;
+        display: block;
+        float:unset;
+        text-align:center;
+    }
+    .defnav ul li ul li a{
+        border-bottom: 1px dotted #fff;
+    }
+    .defnav ul li ul li a:hover{
+        background-color:rgb(45, 107, 124);
+    }
+    #check:checked ~ ul{
+        display: block;
+    }
+    #check:checked ~ p{
+        display: none;
+    }
+    #check:checked ~ .smallh{
+        display: block;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+    .opprmonthly img{
+        display:none;
+    }
+    .interviews img{
+        display:none;
+    }
+    .compete img{
+        display:none;
+    }
+    .tutor img{
+        display:none;
+    }
+    .home img{
+        display:none;
+    }
+    .homemonthly img{
+        display:none;
+    }
+}
