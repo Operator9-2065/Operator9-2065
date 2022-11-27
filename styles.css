@@ -154,14 +154,14 @@ label #btn{
     bottom:0px;
 }
 .rich{
-    text-align:right;
+    text-align:left;
 }
 .rich img{
     position:relative;
     bottom:0px;
 }
 .say{
-    text-align:left;
+    text-align:right;
 }
 .say img{
     position:relative;
@@ -172,17 +172,17 @@ label #btn{
     bottom:0;
 }
 .sasha{
-    text-align:right;
+    text-align:left;
 }
 .byuri{
-    text-align:right;
+    text-align:left;
 }
 .byuri img{
     position:relative;
     bottom:0;
 }
 .daniel{
-    text-align:left;
+    text-align:right;
 }
 .daniel img{
     position:relative;
